@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+     
+    <form action="post">
+<h1>login form</h1>
+    <input type="username" placeholder="@username">
+    <input type="password" placeholder="password">
+        <label for="form">Select Your Gender:</label>
+        
+          <div class="radio-group">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="other"> Other</label>
+    </div>
+    <label for="skills">select your skills</label>
+    <div class="checkbox-group">
+         <label for="skills"><input type="checkbox" name="checkbox" id="skills">html</label>
+         <label for="skills"><input type="checkbox" name="checkbox" id="skills">css</label>
+          <label for="skills"><input type="checkbox" name="checkbox" id="skills">javascript</label>
+    </div>
+    <div class="login-signup">
+        <div class="login">
+           <button>login</button>
+        </div>
+        <div class="signup">
+            <button>signup</button>
+        </div>
+    </div>
+
+<button class="forget">forget password</button>
+
+    </form>
+</body>
+</html>

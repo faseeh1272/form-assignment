@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: aliceblue;
+    background-color: rgb(54, 53, 53);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+form {
+   padding: 65px 45px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   text-align: center;
+   border: 2px solid  #171717;
+   background-color: #171717;
+   border-radius: 7px;
+   box-shadow: 0 0 5px 25px blanchedalmond ;
+   background: linear-gradient(red, yellow, blue);
+   
+    
+    
+}
+
+ input{
+   
+    padding: 10px;
+    border-radius: 35px;
+ }
+
+
+ .login-signup{
+    display: flex;
+    justify-content: center;
+   gap: 20px;
+ }
+
+   button{
+    padding: 6px 25px;
+     border-radius: 7px;
+ }
+
+ input.password{
+   border-radius: 7px;
+  
+ }
+
+ div.radio-group{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+
+ div.checkbox-group{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+ }
+ input:hover{
+    transform: scale(1.3);
+    background-color:black;
+    color: white;
+    transition: 1s;
+ }
+
+
+ form:hover{
+   color: #e7dfdf;
+   background-color: rgb(63, 65, 64);
+   transition: 2s;
+    
+    
+ }
+
+ label{
+   
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+div.login button:hover{
+   background-color: #171717;
+   color: white;
+   transition: 1s;
+   font-weight: 600;
+}
+div.login button:active{
+   background-color: #171717;
+   color: white;
+   transition: 1s;
+   font-weight: 600;
+}
+div.signup button:hover{
+   background-color: #171717;
+   color: white;
+   transition: 1s;
+   font-weight: 600;
+}
+div.signup button:active{
+   background-color: #171717;
+   color: white;
+   transition: 1s;
+   font-weight: 600;
+}
+
+button.forget:hover{
+  background-color: red;
+  font-size: large;
+  font-weight: 600;
+  color: #e7dfdf;
+   transform: scale(1.5);
+   transition: 2s;
+}
+ 
+/* 
+div.checkbox-group:hover{
+    background-color: red;
+} */
+
+ input[type="radio"]:hover{
+transform:scale(1.8) ;
+cursor: pointer;
+accent-color: black;
+ }
+ input[type="checkbox"]:hover {
+  transform: scale(1.8);
+  cursor: pointer;
+  color: #171717;
+ }
+
+ input[type="radio"]{
+ accent-color: var(#171717);
+ }
+ input:focus{
+  background-color: rgb(206, 71, 172);
+  color:black ;
+ }
