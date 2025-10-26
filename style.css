@@ -118,7 +118,7 @@ button.forget:hover{
   font-size: large;
   font-weight: 600;
   color: #e7dfdf;
-   transform: scale(1.5);
+   transform: scale(1.3);
    transition: 2s;
 }
  
